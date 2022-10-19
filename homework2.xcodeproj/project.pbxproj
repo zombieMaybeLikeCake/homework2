@@ -16,6 +16,7 @@
 		E10585CE28FFE7C400ED823C /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10585CD28FFE7C400ED823C /* PlayerView.swift */; };
 		E10585D028FFE7E100ED823C /* PlayerGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10585CF28FFE7E100ED823C /* PlayerGroupView.swift */; };
 		E10585D228FFE7F100ED823C /* OtherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10585D128FFE7F100ED823C /* OtherView.swift */; };
+		E10585D42900A77E00ED823C /* GamegroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10585D32900A77E00ED823C /* GamegroupView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		E10585CD28FFE7C400ED823C /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 		E10585CF28FFE7E100ED823C /* PlayerGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerGroupView.swift; sourceTree = "<group>"; };
 		E10585D128FFE7F100ED823C /* OtherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherView.swift; sourceTree = "<group>"; };
+		E10585D32900A77E00ED823C /* GamegroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamegroupView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				E10585C928FFE60E00ED823C /* MainView.swift */,
 				E10585CF28FFE7E100ED823C /* PlayerGroupView.swift */,
 				E10585CB28FFE7AE00ED823C /* GameView.swift */,
+				E10585D32900A77E00ED823C /* GamegroupView.swift */,
 				E10585D128FFE7F100ED823C /* OtherView.swift */,
 				E10585B128F8B15200ED823C /* Assets.xcassets */,
 				E10585B328F8B15200ED823C /* Preview Content */,
@@ -152,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E10585D42900A77E00ED823C /* GamegroupView.swift in Sources */,
 				E10585B028F8B15000ED823C /* ContentView.swift in Sources */,
 				E10585D028FFE7E100ED823C /* PlayerGroupView.swift in Sources */,
 				E10585CA28FFE60E00ED823C /* MainView.swift in Sources */,
