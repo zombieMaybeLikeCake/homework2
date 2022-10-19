@@ -25,7 +25,7 @@ struct PlayerGroupView: View {
              
             }.toolbar{
                 ToolbarItem(placement: .principal){
-                    Text( "各國隊伍介紹").font(.title)
+                    Text( "四強各國選手介紹").font(.title)
                 }
             }
         }.navigationTitle("各國隊伍介紹")

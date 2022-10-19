@@ -12,7 +12,7 @@ struct MainView: View {
         NavigationView{
             ScrollView{
                 VStack{
-                    Image("title").resizable().scaledToFit().frame(width: 100, height: 100)
+                    Image("ind").resizable().scaledToFit().frame(width: 500, height: 300)
                     Text("簡介").font(.largeTitle).padding()
                     Divider()
                     Group{
@@ -41,7 +41,7 @@ struct MainView: View {
                     Button{
                         
                     }label:{
-                        Image("title").resizable().scaledToFit().frame(width:100,height: 100)
+                        Image("title").resizable().scaledToFit().frame(width:100,height: 40)
                     }
                 }
             }
