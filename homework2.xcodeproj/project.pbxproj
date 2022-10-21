@@ -17,6 +17,7 @@
 		E10585D028FFE7E100ED823C /* PlayerGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10585CF28FFE7E100ED823C /* PlayerGroupView.swift */; };
 		E10585D228FFE7F100ED823C /* OtherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10585D128FFE7F100ED823C /* OtherView.swift */; };
 		E10585D42900A77E00ED823C /* GamegroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10585D32900A77E00ED823C /* GamegroupView.swift */; };
+		E10585D62902427C00ED823C /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10585D52902427C00ED823C /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		E10585CF28FFE7E100ED823C /* PlayerGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerGroupView.swift; sourceTree = "<group>"; };
 		E10585D128FFE7F100ED823C /* OtherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherView.swift; sourceTree = "<group>"; };
 		E10585D32900A77E00ED823C /* GamegroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamegroupView.swift; sourceTree = "<group>"; };
+		E10585D52902427C00ED823C /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				E10585CB28FFE7AE00ED823C /* GameView.swift */,
 				E10585D32900A77E00ED823C /* GamegroupView.swift */,
 				E10585D128FFE7F100ED823C /* OtherView.swift */,
+				E10585D52902427C00ED823C /* File.swift */,
 				E10585B128F8B15200ED823C /* Assets.xcassets */,
 				E10585B328F8B15200ED823C /* Preview Content */,
 			);
@@ -162,6 +165,7 @@
 				E10585CC28FFE7AE00ED823C /* GameView.swift in Sources */,
 				E10585D228FFE7F100ED823C /* OtherView.swift in Sources */,
 				E10585CE28FFE7C400ED823C /* PlayerView.swift in Sources */,
+				E10585D62902427C00ED823C /* File.swift in Sources */,
 				E10585AE28F8B15000ED823C /* homework2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
