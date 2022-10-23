@@ -4,23 +4,26 @@
 //
 //  Created by robert on 2022/10/19.
 //
-
 import SwiftUI
-
 struct GameView: View {
     var body: some View {
         ScrollView{
-            Spacer()
-           	
             VStack{
-                Image("cnjp").resizable().scaledToFit().frame(width: 400, height: 700,alignment: .top)
-            }
-            Divider()
-            Spacer()
-            VStack{
-                
+                HStack{
+                    Text("中國")
+                    rlight()
+                    Text("VS")
+                    llight()
+                    Text("日本")
+                }
+                Image("cnjp").resizable().scaledToFit().frame(width: 300, height: 750,alignment: .top)
+                Divider()
+                VStack{
+                    
+                }
             }
         }
+
     }
 }
 

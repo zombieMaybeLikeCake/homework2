@@ -12,7 +12,7 @@ struct PlayerGroupView: View {
             List(0..<6){index in
                 ForEach(1..<2){ index  in
                     NavigationLink{
-                        PlayerView()
+                        PlayersView()
                     }
                 label:{
                     HStack{

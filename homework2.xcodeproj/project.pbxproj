@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E1018F68290589AF00BA43AE /* PlayersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1018F67290589AF00BA43AE /* PlayersView.swift */; };
+		E1018F6A290594CC00BA43AE /* Club.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E1018F69290594CC00BA43AE /* Club.mp3 */; };
 		E10585AE28F8B15000ED823C /* homework2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10585AD28F8B15000ED823C /* homework2App.swift */; };
 		E10585B028F8B15000ED823C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10585AF28F8B15000ED823C /* ContentView.swift */; };
 		E10585B228F8B15200ED823C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E10585B128F8B15200ED823C /* Assets.xcassets */; };
@@ -17,10 +19,15 @@
 		E10585D028FFE7E100ED823C /* PlayerGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10585CF28FFE7E100ED823C /* PlayerGroupView.swift */; };
 		E10585D228FFE7F100ED823C /* OtherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10585D128FFE7F100ED823C /* OtherView.swift */; };
 		E10585D42900A77E00ED823C /* GamegroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10585D32900A77E00ED823C /* GamegroupView.swift */; };
-		E10585D62902427C00ED823C /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10585D52902427C00ED823C /* File.swift */; };
+		E127630929057C4F0010997A /* rlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = E127630829057C4F0010997A /* rlight.swift */; };
+		E178F43D2905439D00F04254 /* fzd.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E178F43C2905439D00F04254 /* fzd.mp4 */; };
+		E178F45929054B3400F04254 /* playView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E178F45829054B3400F04254 /* playView.swift */; };
+		E178F45B290572E400F04254 /* llight.swift in Sources */ = {isa = PBXBuildFile; fileRef = E178F45A290572E400F04254 /* llight.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E1018F67290589AF00BA43AE /* PlayersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersView.swift; sourceTree = "<group>"; };
+		E1018F69290594CC00BA43AE /* Club.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Club.mp3; sourceTree = "<group>"; };
 		E10585AA28F8B15000ED823C /* homework2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = homework2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E10585AD28F8B15000ED823C /* homework2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homework2App.swift; sourceTree = "<group>"; };
 		E10585AF28F8B15000ED823C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,7 +39,10 @@
 		E10585CF28FFE7E100ED823C /* PlayerGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerGroupView.swift; sourceTree = "<group>"; };
 		E10585D128FFE7F100ED823C /* OtherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherView.swift; sourceTree = "<group>"; };
 		E10585D32900A77E00ED823C /* GamegroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamegroupView.swift; sourceTree = "<group>"; };
-		E10585D52902427C00ED823C /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		E127630829057C4F0010997A /* rlight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rlight.swift; sourceTree = "<group>"; };
+		E178F43C2905439D00F04254 /* fzd.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = fzd.mp4; sourceTree = "<group>"; };
+		E178F45829054B3400F04254 /* playView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playView.swift; sourceTree = "<group>"; };
+		E178F45A290572E400F04254 /* llight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = llight.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,15 +75,20 @@
 		E10585AC28F8B15000ED823C /* homework2 */ = {
 			isa = PBXGroup;
 			children = (
+				E1018F69290594CC00BA43AE /* Club.mp3 */,
+				E178F43C2905439D00F04254 /* fzd.mp4 */,
 				E10585AD28F8B15000ED823C /* homework2App.swift */,
 				E10585AF28F8B15000ED823C /* ContentView.swift */,
 				E10585CD28FFE7C400ED823C /* PlayerView.swift */,
 				E10585C928FFE60E00ED823C /* MainView.swift */,
 				E10585CF28FFE7E100ED823C /* PlayerGroupView.swift */,
+				E1018F67290589AF00BA43AE /* PlayersView.swift */,
 				E10585CB28FFE7AE00ED823C /* GameView.swift */,
 				E10585D32900A77E00ED823C /* GamegroupView.swift */,
 				E10585D128FFE7F100ED823C /* OtherView.swift */,
-				E10585D52902427C00ED823C /* File.swift */,
+				E178F45829054B3400F04254 /* playView.swift */,
+				E178F45A290572E400F04254 /* llight.swift */,
+				E127630829057C4F0010997A /* rlight.swift */,
 				E10585B128F8B15200ED823C /* Assets.xcassets */,
 				E10585B328F8B15200ED823C /* Preview Content */,
 			);
@@ -146,6 +161,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1018F6A290594CC00BA43AE /* Club.mp3 in Resources */,
+				E178F43D2905439D00F04254 /* fzd.mp4 in Resources */,
 				E10585B528F8B15200ED823C /* Preview Assets.xcassets in Resources */,
 				E10585B228F8B15200ED823C /* Assets.xcassets in Resources */,
 			);
@@ -163,10 +180,13 @@
 				E10585D028FFE7E100ED823C /* PlayerGroupView.swift in Sources */,
 				E10585CA28FFE60E00ED823C /* MainView.swift in Sources */,
 				E10585CC28FFE7AE00ED823C /* GameView.swift in Sources */,
+				E127630929057C4F0010997A /* rlight.swift in Sources */,
 				E10585D228FFE7F100ED823C /* OtherView.swift in Sources */,
 				E10585CE28FFE7C400ED823C /* PlayerView.swift in Sources */,
-				E10585D62902427C00ED823C /* File.swift in Sources */,
+				E178F45B290572E400F04254 /* llight.swift in Sources */,
+				E178F45929054B3400F04254 /* playView.swift in Sources */,
 				E10585AE28F8B15000ED823C /* homework2App.swift in Sources */,
+				E1018F68290589AF00BA43AE /* PlayersView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
