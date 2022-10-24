@@ -8,19 +8,11 @@
 import SwiftUI
 
 struct PlayersView: View {
+    let list : Players
     var body: some View {
         TabView(){
-            PlayerView().padding().tabItem {
-                Text("1")
-            }
-            PlayerView().padding().tabItem {
-                Text("1")
-            }
-            PlayerView().padding().tabItem {
-                Text("1")
-            }
-            PlayerView().padding().tabItem {
-                Text("1")
+            ForEach(list.plist,id: \.name){
+                name in PlayerView(p:name)
             }
         }.indexViewStyle(PageIndexViewStyle(backgroundDisplayMode: .always)).tabViewStyle(PageTabViewStyle())
     }
@@ -28,6 +20,6 @@ struct PlayersView: View {
 
 struct PlayersView_Previews: PreviewProvider {
     static var previews: some View {
-        PlayersView()
+        PlayersView(list: .mchina)
     }
 }

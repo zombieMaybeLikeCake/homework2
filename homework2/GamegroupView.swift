@@ -91,7 +91,7 @@ struct GamegroupView: View {
                         }
                         Spacer()
                     }
-            }
+            }.background(Image("background").resizable(resizingMode: .tile).opacity(0.5))
            
             }.navigationTitle("四強&冠軍賽況")
         }
