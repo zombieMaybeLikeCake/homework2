@@ -8,6 +8,7 @@
 import Foundation
 import UIKit
 import AVFoundation
+import SwiftUI
 class chose: ObservableObject {
     @Published  var blackground = "table"
     @Published  var IsplayerItem = true
@@ -58,5 +59,10 @@ struct BigPlayers{
     let bigplist : [Players]
 }
 extension BigPlayers{
-    static var all = BigPlayers( bigplist: [Players.mchina,Players.fjap,Players.ftw,Players.fchina,Players.mjap,Players.mgm])
+    static var all = BigPlayers( bigplist: [Players.fjap,Players.ftw,Players.fchina,Players.mchina,Players.mjap,Players.mgm])
+}
+extension Image {
+    func photoStyle()-> some View{
+        self.resizable().clipShape(Circle()).scaledToFit().frame(width: 70, height: 70)
+    }
 }

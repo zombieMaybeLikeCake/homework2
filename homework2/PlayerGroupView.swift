@@ -7,21 +7,36 @@
 
 import SwiftUI
 struct PlayerGroupView: View {
-    let country = ["中國男團","日本女團","中國女團","台灣女團","日本男團","德國男團"]
-    let photo  = ["fch","fjp","fch","ftw","fjp","fgm"]
+    let country = ["日本女團","台灣女團","中國女團","中國男團","日本男團","德國男團"]
+    let photo  = ["fjp","tw","fch","fch","fjp","fgm"]
     let gruop  = BigPlayers.all
     var body: some View {
         NavigationView{
-            List(0..<6){i in
-                ForEach(1..<2){ index  in
-                    NavigationLink{
-                        PlayersView(list: gruop.bigplist[i])
+            List{
+                Section(header:Text("女團")){
+                    ForEach(0..<3){ i in
+                        NavigationLink{
+                            PlayersView(list: gruop.bigplist[i])
+                        }
+                        label:{
+                            HStack{
+                                Rectangle().frame(width: 100, height: 100).aspectRatio(1,contentMode: .fit).overlay(Image(photo[i]).resizable().scaledToFill())
+                                Text(country[i])
+                            }
+                        }
                     }
-                label:{
-                    HStack{
-                        Rectangle().frame(width: 100, height: 100).aspectRatio(1,contentMode: .fit).overlay(Image(photo[i]).resizable().scaledToFill())
-                        Text(country[i])
-                    }
+                }
+                Section(header:Text("男團")){
+                    ForEach(3..<6){ i in
+                        NavigationLink{
+                            PlayersView(list: gruop.bigplist[i])
+                        }
+                        label:{
+                            HStack{
+                                Rectangle().frame(width: 100, height: 100).aspectRatio(1,contentMode: .fit).overlay(Image(photo[i]).resizable().scaledToFill())
+                                Text(country[i])
+                            }
+                        }
                     }
                 }
             }.toolbar{

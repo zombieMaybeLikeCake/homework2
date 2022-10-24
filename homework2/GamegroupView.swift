@@ -26,7 +26,7 @@ struct GamegroupView: View {
                             HStack{
                                 Image("cn").resizable().scaledToFit().frame(width: 100, height: 200)
                                 NavigationLink{
-                                    GameView()
+                                    chgnView()
                                 }
                             label:{
                                 Text("中國VS德國")
@@ -41,8 +41,7 @@ struct GamegroupView: View {
                         HStack{
                             Image("cn").resizable().scaledToFit().frame(width: 100, height: 200)
                                 NavigationLink{
-                                    GameView()
-                                }
+                                    GameView()                                }
                             label:{
                                 Text("中國VS日本")
                             }
@@ -65,8 +64,7 @@ struct GamegroupView: View {
                                 HStack{
                                     Image("cn").resizable().scaledToFit().frame(width: 100, height: 200)
                                     NavigationLink{
-                                        GameView()
-                                    }
+                                        jpchView()                                    }
                                 label:{
                                     Text("中國VS日本")
                                 }
@@ -79,9 +77,9 @@ struct GamegroupView: View {
                             Text("四強賽")
                         Spacer()
                         HStack{
-                            Image("tw").resizable().scaledToFit().frame(width: 100, height: 200)
+                            Image("ftw").resizable().scaledToFit().frame(width: 100, height: 200)
                             NavigationLink{
-                                GameView()
+                                twghView()
                             }
                             label:{
                            

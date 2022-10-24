@@ -12,14 +12,15 @@ struct PlayerView: View {
         ScrollView{
             VStack(alignment: .center){
                 ZStack{
-                    Image(p.sn).resizable().scaledToFit().frame(minWidth: 0,maxWidth: 450, minHeight: 0, maxHeight: 700 )
+                    Image(p.sn).resizable().scaledToFit().frame(minWidth: 0, maxWidth:300 , minHeight: 450,  maxHeight: 500, alignment: .top)
                     Text(p.name).font(.largeTitle)
                         .foregroundColor(Color.white)
-                        .multilineTextAlignment(.center).offset(x: moveDistance, y: -200).animation(.easeOut.speed(speed).delay(delay),value: moveDistance) .onAppear {
-                            moveDistance = -120
+                        .multilineTextAlignment(.center).offset(x: moveDistance, y: -180).animation(.easeOut.speed(speed).delay(delay),value: moveDistance) .onAppear {
+                            moveDistance = -85
+                        }.onDisappear(){
+                            moveDistance = 270
                         }
                 }
-                Spacer()
                 Divider()
                 Spacer()
                 HStack{
@@ -54,7 +55,7 @@ struct PlayerView: View {
                     VStack{
                         Text(p.ind).multilineTextAlignment(.center)
                         Divider()
-                    }.frame(width: 350, height: 200, alignment: .top)
+                    }.frame(width: 300, height:300, alignment: .center)
                     VStack{
                         Text("高光時刻")
                             .font(.title)
